@@ -1,0 +1,113 @@
+datos -> f(x) -> salida
+
+*Diferencias entre IA-ML
+
+Todo esto es la IA o Machine Intelligent
+ ---------------------------------------------------------------------------
+| Logica: arbol de decision, logica difusa, aprendizaje reforzado.          |
+| Estadistica, probabilidad                                                 |
+| clasificacion: class/grupos, k-means, SOM, SUM, FCM.                      |
+| Encoding, P.C.A, T-SNE (analisis de los componentes principal)            |
+| Redes neuronales artificiales, BP, multiplayer perception, Deep Learning. |
+| Meta algoritmos, algoritmos geneticos, algoritmos evolutivos.             |
+ ---------------------------------------------------------------------------
+
+¿Qué es la inteligencia?
+Según el diccionario: es el ejercicio de entender, el acto de saber.
+
+¿Inteligencia = conocimiento?
+-Por lo contrario, [Inteligencia = entendimiento], aún no es tan preciso.
+
+
+Touring -> punto de vista de la ingenieria. ¿Como mide la inteligencia? Tiempo, durante que tanto tiempo puede hacerse pasar una maquina por humano.
+
+Cuarto chino -> Venia, punto de vista filosófico.
+
+¿Como se dfierencia entre un algoritmo inteligente frente al que no lo es?
+
+ ------------------------------------------------------------------------------------------
+|                                         TIC TAC TOE                                      |
+ ------------------------------------------------------------------------------------------
+1 version -> Mirar el tablero, responder por cada situacion. "Hardcoding".
+
+2 version -> visualice dos marcas y actue respecto de la tercera. If, el oponente tiene dos marcas, then marcar el tablero. "Programacion Dinamica".
+(Estatico/especifico/explicito/estupido)
+
+3 version -> el algoritmo inteligente representa el estado del juego. Cuales son los posibles movimientos.
+Usar una funcion de evaluacion (esto es fundamental en la IA). Evaluar la probabilidad. Continuar con el estado de mayor probibilidad.
+(Dinamico/generico/implicito/inteligentes)
+[Heuristica -> Una estrategia para solucionar un problema, simula una posible solucion, no esta basado en nada. Puede ser buena o mala]
+[Espacio de estados-> en ese espacio estaran todos los posibles movimiento, caminos, etc. Posibles ]
+--------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------
+|                                       AGENTES                                            |
+ ------------------------------------------------------------------------------------------
+Esta conformado por sensores y actuadores -> todo esto estara sobre un ambiente.
+Ejemplo. El mundo de la aspiradora, ¿Quien es el agente? la aspiradora ¿Quien es el entorno? A y B.
+[El entorno es el medio en el actuan los agentes. Cuadrante]
+
+                ---------------> Esta conformado por el computador/microprocesador. El hardware que lo compone.
+                |
+                |
+Un agente = Arquitectura + programa.
+			      |
+			      |
+			      --------------------->  
+			
+			
+¿Que significa actuar de forma racional?
+- Un sistema es racional si hace "lo correcto", en funcion de su conocimiento.
+* Segun Hebert Simon: el principio de la reacionalidad restringida alega que la racionalidad optima ideal NO es el bien exito perfecto.
+* Ningun ser humano apela a la racionalidad mayor a la uq es necesaria para sus funes practicos.
+* Las ilimitaciones de un agente.
+- - - - > con los sensores que tiene
+- - - - > con los efectores que tiene
+- - - - > con la potencia computacional => disponible y optima economica.
+* Conducen a que la racionalidad.
+
+
+------------------------------------------------------------
+Representacion del problema del espacio de estados
+------------------------------------------------------------
+Nos ayudara con la resolucion de algun problema, es una capacidad que consideramos inteligente.
+Somos capaces de resolver problemas variados.
+El objetivo es que un programa tambien tambien sea capaz de resolverlos.
+(si mi espacio de busqueda es infinito se tarda un tiempo infinito en resolverlo)
+
+Deseamos definir cualquier tipo de problema de manera que se puieda resolver automaticamente
+Necesitamos:  UNa representacion comun para todos los problemas. Algoritmo que usean alguna estrategia para resolver problemas definidos en esa representacion comun. (la representacion va a estar basado en el espacio de estados)
+
+Metodo de solucion del problema.
+
+	   abstraccion                 [Matrices]
+PROBLEMA ===============> Representacion como espacio de estados.
+                                          ||
+                                          ||
+                                          ||
+                                         \||/
+                                          \/
+		          Implementacion en un programa/software.  =================> Aplicacion de los algoritmos 
+		          							      de busqueda de la solucion
+
+-------------------------------------------------
+Definicion de un problema en Espacios de estado
+-------------------------------------------------
+- Un estado inicial
+- Acciones y restricciones
+- Estado final
+- Costo del camino
+
+* Existen diferentes formas de representar probemas para resolverlos de manera automatica.
+- - - - >Espacio de estados
+- - - - >Resuccion de subproblemas
+
+
+Los operadores se incluyen en los estados. Ejemplos: arriba, abajo | recoge basura o no.
+
+ --------------------------------------------------------------------------------------------
+|                                      TAREAS                                                |
+ --------------------------------------------------------------------------------------------
+| Para la siguiente clase, que es la inteligencia y analizar la habitacion del cuarto chino. |
+| ¿Por que se cuestiona el cuarto chino? ¿La persona que esta dentro de la habitacion        |
+|  entiende chino? ¿El cuerto es inteligete? ¿que es la inteligencia?                        |
+ --------------------------------------------------------------------------------------------
